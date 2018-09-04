@@ -3,7 +3,7 @@ const static = require('koa-static')
 const path = require('path')
 const app = new Koa();
 
-const staticPath = './static'
+const staticPath = './public'
 
 app.use(static(
   path.join( __dirname,  staticPath)
